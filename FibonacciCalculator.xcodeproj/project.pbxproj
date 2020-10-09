@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FD753C9B2530806E0064AA67 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = FD753C9A2530806E0064AA67 /* main.c */; };
+		FD753C9B2530806E0064AA67 /* fibonacciCalculator.c in Sources */ = {isa = PBXBuildFile; fileRef = FD753C9A2530806E0064AA67 /* fibonacciCalculator.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +23,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		FD753C972530806E0064AA67 /* CCourses */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CCourses; sourceTree = BUILT_PRODUCTS_DIR; };
-		FD753C9A2530806E0064AA67 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		FD753C972530806E0064AA67 /* FibonacciCalculator */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = FibonacciCalculator; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD753C9A2530806E0064AA67 /* fibonacciCalculator.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = fibonacciCalculator.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,7 +41,7 @@
 		FD753C8E2530806E0064AA67 = {
 			isa = PBXGroup;
 			children = (
-				FD753C992530806E0064AA67 /* CCourses */,
+				FD753C992530806E0064AA67 /* FibonacciCalculator */,
 				FD753C982530806E0064AA67 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,25 +49,25 @@
 		FD753C982530806E0064AA67 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FD753C972530806E0064AA67 /* CCourses */,
+				FD753C972530806E0064AA67 /* FibonacciCalculator */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		FD753C992530806E0064AA67 /* CCourses */ = {
+		FD753C992530806E0064AA67 /* FibonacciCalculator */ = {
 			isa = PBXGroup;
 			children = (
-				FD753C9A2530806E0064AA67 /* main.c */,
+				FD753C9A2530806E0064AA67 /* fibonacciCalculator.c */,
 			);
-			path = CCourses;
+			path = FibonacciCalculator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FD753C962530806E0064AA67 /* CCourses */ = {
+		FD753C962530806E0064AA67 /* FibonacciCalculator */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FD753C9E2530806E0064AA67 /* Build configuration list for PBXNativeTarget "CCourses" */;
+			buildConfigurationList = FD753C9E2530806E0064AA67 /* Build configuration list for PBXNativeTarget "FibonacciCalculator" */;
 			buildPhases = (
 				FD753C932530806E0064AA67 /* Sources */,
 				FD753C942530806E0064AA67 /* Frameworks */,
@@ -77,9 +77,9 @@
 			);
 			dependencies = (
 			);
-			name = CCourses;
+			name = FibonacciCalculator;
 			productName = CCourses;
-			productReference = FD753C972530806E0064AA67 /* CCourses */;
+			productReference = FD753C972530806E0064AA67 /* FibonacciCalculator */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -95,7 +95,7 @@
 					};
 				};
 			};
-			buildConfigurationList = FD753C922530806E0064AA67 /* Build configuration list for PBXProject "CCourses" */;
+			buildConfigurationList = FD753C922530806E0064AA67 /* Build configuration list for PBXProject "FibonacciCalculator" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -108,7 +108,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FD753C962530806E0064AA67 /* CCourses */,
+				FD753C962530806E0064AA67 /* FibonacciCalculator */,
 			);
 		};
 /* End PBXProject section */
@@ -118,7 +118,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FD753C9B2530806E0064AA67 /* main.c in Sources */,
+				FD753C9B2530806E0064AA67 /* fibonacciCalculator.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,7 +255,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FD753C922530806E0064AA67 /* Build configuration list for PBXProject "CCourses" */ = {
+		FD753C922530806E0064AA67 /* Build configuration list for PBXProject "FibonacciCalculator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FD753C9C2530806E0064AA67 /* Debug */,
@@ -264,7 +264,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FD753C9E2530806E0064AA67 /* Build configuration list for PBXNativeTarget "CCourses" */ = {
+		FD753C9E2530806E0064AA67 /* Build configuration list for PBXNativeTarget "FibonacciCalculator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FD753C9F2530806E0064AA67 /* Debug */,
